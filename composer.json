@@ -1,0 +1,26 @@
+{
+    "name": "lx/hello",
+    "description": "zhe shi ce shi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lixu",
+            "email": "1351343400@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    },
+      "repositories": {
+            "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+            }
+    }
+
+}
